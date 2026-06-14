@@ -1,7 +1,7 @@
 # EFI FIFA Data — World Cup 2026 🏆
  
 Automated pipeline to collect and store **Enhanced Football Intelligence (EFI)** data from the official FIFA website for the 2026 FIFA World Cup (USA · Canada · Mexico).
- 
+
 ## What it does
  
 Scrapes EFI metrics from the FIFA platform after each matchday and stores structured data ready for analysis. Data is updated daily and versioned through Git, providing a clean historical record across the full tournament.
@@ -41,6 +41,20 @@ on:
 The data collected by this pipeline feeds the production of **post-match summary reports** published on the [FIFA Training Centre — Match Report Hub](https://www.fifatrainingcentre.com/en/fifa-world-cup-2026/match-report-hub.php). These reports cover all FIFA World Cup 2026™ matches, organised by group, and are released progressively as the tournament unfolds.
  
 EFI metrics extracted here are used to analyse player and team performance across each match, supporting the technical narrative in those reports.
+
+## EFI definitions
+ 
+For a full reference of the metrics and concepts behind the EFI data, see the **FIFA Football Language** glossary published by the FIFA Training Centre:
+ 
+📖 [The FIFA Football Language](https://www.fifatrainingcentre.com/en/game/performance-analysis/football-language-analysis/the-fifa-football-language.php)
+
+## Apps built with this data
+ 
+| App | Description |
+|-----|-------------|
+| [**FifaPhy**](https://fifaphy.vercel.app) | Interactive physical performance explorer for WC 2026 — player, team, and head-to-head views |
+| [**WC 2026 Physical Dashboard**](https://wc2026-physical.streamlit.app) | Streamlit dashboard for in-depth physical analytics across the tournament |
+ 
 
 ## Usage
  
